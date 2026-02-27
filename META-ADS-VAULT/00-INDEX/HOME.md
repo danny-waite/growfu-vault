@@ -84,6 +84,8 @@
 | 20 | [[../04-OPERATIONAL-CONTROL/20-Fatigue-Saturation-and-Rotation\|Fatigue, Saturation & Rotation]] |
 | 21 | [[../04-OPERATIONAL-CONTROL/21-Governance-and-Change-Management\|Governance & Change Management]] |
 | 22 | [[../04-OPERATIONAL-CONTROL/22-Master-Checklists-and-Execution-Templates\|Master Checklists & Execution Templates]] |
+| 23 | [[../04-OPERATIONAL-CONTROL/23-LTV-and-Unit-Economics\|LTV & Unit Economics]] |
+| 24 | [[../04-OPERATIONAL-CONTROL/24-Marketing-Metrics-Analysis-Agent\|Marketing Metrics Analysis Agent (MMAA)]] |
 
 ---
 A central rule of this framework:

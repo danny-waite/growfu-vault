@@ -1,1 +1,0 @@
-[[Persona]] - Describes a targeted marketing persona

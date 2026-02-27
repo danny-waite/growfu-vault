@@ -176,4 +176,48 @@ See [[09-Cognitive-Stages-and-Optimization-Contracts#9.4 CTA Intensity per Stage
 | CTA-R | Per stage | Constrained range |
 | SCR | No | No |
 
-#structural-strategy #immutable-variables #ps #of #br #ve #ea
+---
+
+## Verification Status
+
+> This section documents the verification status of key claims and assumptions in this note. Confidence scores reflect the strength of available evidence from Meta official sources, academic research, and industry validation.
+
+| Claim/Assumption | Type | Confidence | Evidence | Impact | Notes |
+|-----------------|------|------------|----------|--------|-------|
+| PS/OF/BR/CS/VE/EA/AL/CTA-R/SCR definitions | C | N/A | Framework's proprietary taxonomy | Risk: N/A \| Benefit: N/A<br>Framework's own structural system, not Meta terms | Cross-reference: Glossary verification (confidence N/A) |
+| Random variation destroys learnability | E | 7 | Semantic consistency helps learning accumulation; Meta's sequence learning uses semantic/contextual info; [Meta Engineering](https://engineering.fb.com/2024/11/19/data-infrastructure/sequence-learning-personalized-ads-recommendations/) | Risk: HIGH \| Benefit: MAJOR<br>Semantic inconsistency slows learning and increases costs. Consistency accelerates signal accumulation. | Cross-reference: File 2 verification (confidence 7); File 4 semantic variety |
+| Mixing VE types creates semantic ambiguity for the system | E | 7 | Embedding-based systems learn semantic identity; inconsistency prevents stable representation; [Reboot IQ](https://rebootiq.com/meta-ads-audience-strategy/) | Risk: HIGH \| Benefit: MAJOR<br>Semantic ambiguity confuses ad embedding and degrades learning. Clear semantic identity enables effective learning. | Logical extension of embedding architecture (File 4, confidence 7) |
+| System cannot learn "what kind of creative this is" if semantics change | E | 7 | Ad embedding encodes semantic meaning; changing semantics changes latent identity; practitioner consensus on consistency | Risk: HIGH \| Benefit: MAJOR<br>Unstable creative identity prevents learning accumulation. Stable identity enables knowledge compounding. | Cross-reference: File 4 creative identity (confidence 7) |
+| If PS/OF/BR change, it is another system (not iteration) | C/E | 7 | Framework rule; underlying behavior: changing core semantics resets learning; semantic consistency research | Risk: HIGH \| Benefit: MAJOR<br>Treating system change as iteration wastes previous learning. Clean separation preserves each system's knowledge. | Framework rule (N/A) built on Meta behavior (semantic consistency = confidence 7) |
+| One campaign = one VE (closed set) | C | N/A | Framework design rule | Risk: N/A \| Benefit: N/A<br>Framework's campaign structure | Framework organizational principle |
+| One EA per campaign (never mixed) | C | N/A | Framework design rule | Risk: N/A \| Benefit: N/A<br>Framework's emotional axis discipline | Framework organizational principle |
+| Stage determines optimization event, CTA, message type | E | 7 | Stage-appropriate optimization enables signal volume; verified in File 2 (confidence 7) | Risk: CRITICAL \| Benefit: TRANSFORMATIVE<br>Stage-inappropriate events cause learning failure. Stage alignment enables functional optimization. | Cross-reference: File 2 campaign=contract (confidence 7); detailed in File 7 |
+| Brand role governs proof requirements, CTA strength, tone | C | N/A | Framework construct for brand positioning | Risk: N/A \| Benefit: N/A<br>Framework's brand relationship model | Framework-specific concept; not Meta terminology |
+| AL (Abstraction Level) affects learnability and stage-appropriateness | C/E | 5 | Framework concept; stage-appropriateness principle plausible but unverified for abstraction specifically | Risk: LOW \| Benefit: MODERATE<br>Wrong abstraction level may reduce clarity. Appropriate level improves message comprehension. | Framework construct; abstraction-learning relationship speculative |
+| CTA intensity constrained by stage, brand role, trust | C/E | 7 | Stage alignment verified; CTA mismatch creates negative signals; practitioner consensus | Risk: MEDIUM \| Benefit: SUBSTANTIAL<br>Aggressive CTA in early stages increases hide/report signals. Stage-appropriate CTA maintains quality. | CTA ranges are framework; stage-CTA alignment principle verified |
+| Variable stability prevents learning destruction | E | 7 | Semantic/structural consistency supports learning; changing fundamentals resets signals | Risk: HIGH \| Benefit: MAJOR<br>Variable instability destroys accumulated learning. Stability compounds knowledge over time. | Synthesis of semantic consistency principle (confidence 7) |
+
+**Verification Key:**
+- **Type:** A=Factual Technical, B=Operator Mental Model, C=Framework Construct, D=Operational Best Practice, E=Causal Assertion
+- **Confidence Scale:** 1-2=Unverified, 3-4=Speculative, 5-6=Reasonably Inferred, 7-8=Well Supported, 9-10=Verified
+- **Last Updated:** 2026-02-21
+
+**Important Distinctions:**
+- **Framework Definitions (Type C, N/A):** PS, OF, BR, CS, VE, EA, AL, CTA-R, SCR are the vault's own taxonomy
+- **Meta System Behavior (Type E, Scored):** Claims about how Meta's system responds when these principles are violated
+- **Underlying Mechanics:** Built on verified principles: semantic consistency (File 2, 4), stage alignment (File 2), embedding architecture (File 4)
+
+**Notes:**
+- This file is primarily framework design, establishing proprietary structural controls
+- The 9 variables themselves are not Meta concepts (confidence N/A)
+- BUT: The behavioral claims about consistency, learnability, and semantic stability ARE verifiable against Meta's system
+- High cross-referencing to foundation files where underlying mechanics were verified
+
+**Sources:**
+- [Meta Sequence Learning and Semantic Information](https://engineering.fb.com/2024/11/19/data-infrastructure/sequence-learning-personalized-ads-recommendations/)
+- [Meta Ads Audience Strategy: Creative as Signal](https://rebootiq.com/meta-ads-audience-strategy/)
+- Cross-references to Files 2, 4 for semantic consistency and embedding architecture
+
+---
+
+#structural-strategy #immutable-variables #ps #of #br #ve #ea #verification-complete

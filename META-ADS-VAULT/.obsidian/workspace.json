@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "c14a3ef3362edba1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4d5a3168d266bb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "372ac475806e4931",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-OPERATIONAL-CONTROL/24-Marketing-Metrics-Analysis-Agent.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "24-Marketing-Metrics-Analysis-Agent"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c1b7a512cdc38674",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5713803b6f8ac23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cb8ea203900fa71",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4e7e4c0c8d82c67a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ac58ff0460d16b33",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5
+  },
+  "right": {
+    "id": "32b26a73b224460a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0a5698cff486287",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7584cb0e1a1ecc2f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04-OPERATIONAL-CONTROL/24-Marketing-Metrics-Analysis-Agent.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 24-Marketing-Metrics-Analysis-Agent"
+            }
+          },
+          {
+            "id": "136f225a74d5461b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04-OPERATIONAL-CONTROL/24-Marketing-Metrics-Analysis-Agent.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 24-Marketing-Metrics-Analysis-Agent"
+            }
+          },
+          {
+            "id": "1dcdb16c8ef7bd89",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "45d10bb4dab3f6f6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c0638167adf4efd4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04-OPERATIONAL-CONTROL/24-Marketing-Metrics-Analysis-Agent.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 24-Marketing-Metrics-Analysis-Agent"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "372ac475806e4931",
+  "lastOpenFiles": [
+    "04-OPERATIONAL-CONTROL/23-LTV-and-Unit-Economics.md",
+    "04-OPERATIONAL-CONTROL/24-Marketing-Metrics-Analysis-Agent.md",
+    "02-STRUCTURAL-STRATEGY/07-Immutable-Global-Variables.md",
+    "05-REFERENCE/Glossary-and-Acronyms.md",
+    "05-REFERENCE/Introduction-Learning-System-Philosophy.md",
+    "01-SYSTEM-PHYSICS/04-Auction-Mechanics.md",
+    "01-SYSTEM-PHYSICS/03-Prediction-Heads-and-Multi-Objective-Learning.md",
+    "01-SYSTEM-PHYSICS/02-Embedding-Architecture.md",
+    "01-SYSTEM-PHYSICS/01-The-Single-Mental-Model.md"
+  ]
+}
