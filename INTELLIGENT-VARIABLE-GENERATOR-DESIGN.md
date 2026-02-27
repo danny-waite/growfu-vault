@@ -382,8 +382,8 @@ def validate_ps(ps_definition):
 - Must be measurable/observable
 
 **Critical Example**:
-- ❌ NOT: "users will feel confident"
-- ✅ YES: "users will evaluate options using a defined framework rather than guessing"
+- NOT: "users will feel confident"
+- YES: "users will evaluate options using a defined framework rather than guessing"
 
 **LLM Prompt Template**:
 ```xml
